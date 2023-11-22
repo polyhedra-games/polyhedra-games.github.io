@@ -1,20 +1,24 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
+
+body {
+  background: #000;
+  color: white;
+  font-family: Montserrat, sans-serif;
+}
 div.top {
   display:grid;
   text-align: left;
-  line-height: calc();
-  background: #000;
+  background: #2E2E2E;
   padding: 20px;
   border-radius: 10px;
   
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: 50% 50%;
   
 }
 
 div.b {
-  background: #0;
   
   display: flex;
   justify-items: center;
@@ -31,6 +35,11 @@ a.top {
   text-decoration: none;
 }
 
+.center {
+  padding:10px;
+  text-align: center;
+}
 .container {
   font-family: Montserrat, sans-serif;
+  font-size: 10px;
 }
